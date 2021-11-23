@@ -22,7 +22,7 @@ app.add_middleware(
     allow_headers=['*'],
 )
 
-MODEL = tf.keras.models.load_model("D:\Repository ML\Klasifikasi Defesiensi Nutrisi_TA\saved_models\model_v1.h5")
+MODEL = tf.keras.models.load_model("model_v1.h5")
 CLASS_NAMES = ['Nitrogen(N)', 'Phosphorus(P)', 'Potassium(K)']
 @app.get("/ping")
 async def ping():
