@@ -3,6 +3,5 @@ fastapi
 uvicorn
 python-multipart
 pillow
-matplotlib
 numpy
 gunicorn==19.9.0
