@@ -22,7 +22,7 @@ app = FastAPI()
 #     allow_headers=['*'],
 # )
 
-MODEL = tf.keras.models.load_weights("model_v1.h5")
+MODEL = tf.keras.models.load("model_v1.h5")
 CLASS_NAMES = ['Nitrogen(N)', 'Phosphorus(P)', 'Potassium(K)']
 @app.get("/ping")
 async def ping():
