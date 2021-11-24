@@ -5,6 +5,4 @@ python-multipart
 pillow
 numpy
 gunicorn
-uvloop
-httptools
 matplotlib
